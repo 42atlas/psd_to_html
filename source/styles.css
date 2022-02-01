@@ -6,65 +6,15 @@ font-family: 'Playfair Display', serif;                 (regular 400, bold 700, 
 font-family: 'Roboto', sans-serif;                      (thin 100, light 300, black 900)
 */
 
-*{
-    margin:0;
-    padding: 0;
-}
-#hero-section {
-    background-image: url("/source/img/bgk-header.png");
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    
+* {
 }
 
-#hero-section nav {  
-    
-    order: 1;
+nav {
 }
-#hero-section ul{
-    display: flex;
-    align-content: flex-end;  
+
+#hero-section {
 }
-#hero-section li{
-    padding: 10px;
-  
- 
-}
-#hero-section li a{
-   
-    color: white;
-    text-decoration: none;
-    flex-direction: row;
-}
-#hero-section a:hover{
-    color:#00e0d0;
-}
-#hero-section h2{
-    padding-top: 100px;
-    font-size: 2rem;
-    color: white;
-}
-#hero-section button{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    -ms-flex-align: center;
-    justify-content: center;
-    background-color: transparent;
-    border:1px solid #00e0d0;
-    color: #00e0d0;
-    padding:10px;
-}
-#hero-section p{
-    margin: 50px;
-    text-align: center;
-    
-}
+
 #our_story-section {
 }
 
