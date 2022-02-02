@@ -64,6 +64,40 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
 }
 
 #watch-section {
+  display: flex;
+  justify-content: center;
+  background-image: url("/source/img/bgk-middle.png");
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-position: center;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.watch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 16rem;
+}
+
+.play-img-container {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+.play-text {
+  width: 460px;
+  height: 18px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
 }
 
 #expertise-section {
@@ -73,6 +107,100 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
 }
 
 #contact_client-session {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact_client-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts {
+  padding: 3rem;
+}
+
+.cc-title {
+  object-position: left;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 700;
+  font-family: "Playfair Display";
+}
+
+#contact-form #cname,
+#cmail,
+#csubj {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 300;
+  font-family: "Roboto";
+  width: 460px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid #413d4b2c;
+  margin: 0.5rem 0;
+  padding: 0 0 0 1rem;
+}
+
+#contact-form #ctext {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 300;
+  font-family: "Roboto";
+  width: 460px;
+  height: 200px;
+  background-color: #ffffff;
+  border: 1px solid #413d4b2c;
+  margin: 0.5rem 0;
+  padding: 1rem 0 0 1rem;
+  resize: none;
+}
+
+#csubbut {
+  width: 120px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #00e0d0;
+  font-size: 16px;
+  color: #00e0d0;
+  font-weight: 400;
+  font-family: "Hammersmith One";
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.clients {
+  padding: 3rem;
+}
+
+.f-container {
+  display: flex;
+}
+
+.clients-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.zar {
+  width: 162px;
+  height: 22px;
+}
+
+.clients-img img {
+  padding: 1.8rem 5rem 1.8rem 0;
 }
 
 footer {
