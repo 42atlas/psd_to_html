@@ -6,61 +6,168 @@ font-family: 'Playfair Display', serif;                 (regular 400, bold 700, 
 font-family: 'Roboto', sans-serif;                      (thin 100, light 300, black 900)
 */
 
-* {
-  margin: 0;
-  padding: 0;
+
+*{
+    margin:0;
+    padding: 0;  
 }
+
 #hero-section {
-  background-image: url("/source/img/bgk-header.png");
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+    background-image: url("/source/img/bgk-header.png");
+    height: 600px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#head1{
+    display: flex;
+    justify-content: space-around;
+}
+#first{
+    display: flex;
+    justify-content: center;
+}    
+h3{
+    margin-top:10px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #00e0d0;
+    font-weight: 250;
+    font-family: "Roboto";
+    text-align: center;
+}
+#head1 nav{
+    justify-content: flex-end;
+}
+ul{
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #00e0d0;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    margin-left: 0;
 }
 
-#hero-section nav {
-  order: 1;
-}
-#hero-section ul {
-  display: flex;
-  align-content: flex-end;
-}
-#hero-section li {
-  padding: 10px;
-}
-#hero-section li a {
-  color: white;
-  text-decoration: none;
-  flex-direction: row;
-}
-#hero-section a:hover {
-  color: #00e0d0;
-}
-#hero-section h2 {
-  padding-top: 100px;
-  font-size: 2rem;
-  color: white;
-}
-#hero-section button {
-  width: 10%;
-  display: flex;
-  align-items: center;
-  -ms-flex-align: center;
-  justify-content: center;
-  background-color: transparent;
-  border: 1px solid #00e0d0;
-  color: #00e0d0;
-  padding: 10px;
-}
-#hero-section p {
-  margin: 50px;
-  text-align: center;
+li{
+    padding: 10px;
+    text-decoration: none; 
+    padding-left: 0px;
+    
 }
 
-#our_story-section {
+li a{
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+li a:hover{
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #00e0d0;
+    font-weight: 900;
+    font-family: "Roboto";
+    justify-content: right;
+}
+hr{
+    
+    background-color: #00e0d0;
+}
+#hero-section h2{
+    margin-top: 100px;
+    width: 100%;
+    height: 74px;
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Playfair Display";
+    text-align: center;    
+}
+
+button{
+    background-color: transparent;
+    border:1px solid #00e0d0;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 200px;
+}
+
+#hero-section p{
+    height: 79px;
+    padding: 0px 170px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+#our_story-section{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    height: 800px;
+    background-color: white;
+    
+}
+
+#our_story-section img{
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.story_text {
+    width: 540px;
+    height: 170px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #413d4b;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+.story_text h1 {
+    width: 460px;
+    height: 47px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.story_text button {    /* We should make the buttons the same; the % Values of width didn't do it for me*/
+
+    font-size: 1rem;
+    color: #00e0d0;
+    box-sizing: border-box;
+    border: solid #00e0d0 1px;
+    height: 54px;
+    width: 120px;     
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    
+}
+.story_text button:hover {
+    background-color: #00e0d0;
+    color: white;
 }
 
 #watch-section {
@@ -104,7 +211,61 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
 }
 
 #team-section {
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-image:url('img/bgk-header.png');
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
 }
+#ts-rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+}
+#ts-row1{
+    border: 2px solid grey;
+    width:150px;
+    height:250px;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-around
+}
+#ts-row1 p{
+    font-size: 10px;
+    color:grey;
+    padding: 20px;    
+}
+#ts-row1 h3{
+    font-size: 1rem;
+    color:white;
+}
+#p2{
+    background-color: white;
+    height:50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #contact_client-session {
   display: flex;
@@ -203,5 +364,66 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
   padding: 1.8rem 5rem 1.8rem 0;
 }
 
-footer {
+#footer {
+    background-image: url("img/bgk-footer.png");
+    display: flex;
+    height: 400px;
+    padding: 0px 200px;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+#top{
+    display: flex;   
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+}
+
+#foot-row1{
+    display: flex;
+    flex-direction: column;
+    width:31%;
+    justify-content: space-around;
+    color: white;
+    height: 80%;
+}
+
+#picturesmall{
+    height: 20px;
+}
+#row1{
+    flex-direction: row;
+    display: flex; 
+    justify-content: start;
+    width: 100%;
+}
+#footer h4{
+    padding-top: 30px;
+}
+
+
+#row1 input{
+    background: transparent;
+    border: 1px solid grey;
+    color: grey;
+}
+#row2{
+    display: flex;
+    justify-content: space-between;
+}
+#row2 img{
+    background-color: transparent;
+}
+
+
+
+#foot-bottom{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    color: white;
+}
+
