@@ -69,8 +69,46 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
     text-align: center;  
 }
 
-#our_story-section {
+#our_story-section{
+    display: flex;
+    justify-content:center ;
+    height: 800px;
+    background-color: white;
+    
 }
+.story img {
+    order: 1;
+}
+
+.story_text {
+    order: 2;
+    width: 540px;
+    height: 170px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #413d4b;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.story_text a {
+    font-size: 16px;
+    color: #00e0d0;
+    font-weight: 400;
+    font-family: "Hammersmith One";
+    text-align: center;
+    
+}
+
+.story_text h1 {
+    width: 460px;
+    height: 47px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
 
 #watch-section {
 }
