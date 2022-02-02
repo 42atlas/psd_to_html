@@ -117,7 +117,57 @@ button{
     font-family: "Roboto";
 }
 
-#our_story-section {
+#our_story-section{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    height: 800px;
+    background-color: white;
+    
+}
+
+#our_story-section img{
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.story_text {
+    width: 540px;
+    height: 170px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #413d4b;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+.story_text h1 {
+    width: 460px;
+    height: 47px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+
+.story_text button {    /* We should make the buttons the same; the % Values of width didn't do it for me*/
+
+    font-size: 1rem;
+    color: #00e0d0;
+    box-sizing: border-box;
+    border: solid #00e0d0 1px;
+    height: 54px;
+    width: 120px;     
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    
+}
+.story_text button:hover {
+    background-color: #00e0d0;
+    color: white;
 }
 
 #watch-section {
