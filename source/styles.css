@@ -92,7 +92,7 @@ hr{
     text-align: center;    
 }
 
-button{
+#hero-section button{  /* had to add the #hero-section so it wouldn't interfere with the story button */
     background-color: transparent;
     border:1px solid #00e0d0;
     margin-left: 45%;
@@ -161,8 +161,8 @@ button{
     height: 54px;
     width: 120px;     
     font-weight: 500;
-    text-align: center;
     background-color: transparent;
+    
     
 }
 .story_text button:hover {
@@ -174,6 +174,55 @@ button{
 }
 
 #expertise-section {
+   
+    
+}
+.extop {
+    margin: 70px;
+}
+.row1 {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    background-color: lightgrey;
+       
+}
+.web{
+    background-color: white;
+    padding: 30px;
+}
+.design {
+background-color: white;
+padding: 30px;
+margin: 0 1px;
+}
+.mobile {
+    background-color: white;
+    padding: 30px;
+}
+
+.row2 {
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+}
+    .search {
+    background-color: white;
+    padding: 30px;
+    margin-top: 1px;
+}
+    .game {
+    background-color: white;
+    padding: 30px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+    .heart {
+    background-color: white;
+    padding: 30px;
+    margin-top: 1px;
 }
 
 #team-section {
