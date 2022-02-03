@@ -92,7 +92,7 @@ hr{
     text-align: center;    
 }
 
-#hero-section button{  /* had to add the #hero-section so it wouldn't interfere with the story button */
+#button12{  /* had to add the #hero-section so it wouldn't interfere with the story button */
     background-color: transparent;
     border:1px solid #00e0d0;
     margin-left: 45%;
@@ -103,8 +103,10 @@ hr{
     font-family: "Hammersmith One";
     text-align: center;
     padding: 5px;
+ 
     margin-bottom: 200px;
 }
+
 
 #hero-section p{
     height: 79px;
