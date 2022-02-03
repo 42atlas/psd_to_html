@@ -30,7 +30,7 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
     display: flex;
     justify-content: center;
 }    
-h3{
+#hero-section h3{
     margin-top:10px;
     margin-left: 10px;
     font-size: 30px;
@@ -177,16 +177,69 @@ hr{
    
     
 }
-.extop {
-    margin: 70px;
+.ex-top {
 }
-.row1 {
+.ex-top h1 {
+width: 460px;
+height: 34px;
+font-size: 22px;
+letter-spacing: 1px;
+color: #413d4b;
+font-weight: 700;
+font-family: "Playfair Display";
+text-align: center;
+margin-left: 35%;
+margin-right: 35%;
+margin-top: 50px;
+text-transform: uppercase
+}
+.ex-top h2 {
+width: 500px;
+height: 27px;
+font-size: 14px;
+letter-spacing: 1px;
+color: #2f2d35;
+font-weight: 400;
+font-family: "Playfair Display";
+text-align: center;
+margin: 10px 35%;
+}
+.ex-top h3 {
+    width: 460px;
+    height: 10px;
+    font-size: 14px;
+    color: lightgrey;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 35%;
+    }
+.ex-row1 {
     display: flex;
     text-align: center;
     margin-top: 50px;
     background-color: lightgrey;
        
 }
+.ex-row1 h1{
+width: 299px;
+height: 47px;
+font-size: 14px;
+letter-spacing: 1px;
+color: #413d4b;
+font-weight: 900;
+font-family: "Roboto";
+text-align: center;
+}
+.ex-row2 h1{
+    width: 299px;
+    height: 47px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 900;
+    font-family: "Roboto";
+    text-align: center;
+    }
 .web{
     background-color: white;
     padding: 30px;
@@ -201,7 +254,7 @@ margin: 0 1px;
     padding: 30px;
 }
 
-.row2 {
+.ex-row2 {
     display: flex;
     text-align: center;
     margin-bottom: 50px;
