@@ -286,6 +286,8 @@ margin: 10px 35%;
 .placeholder {
     background-color: white;
     padding: 6%;
+    flex-shrink: 2;
+    flex-grow: 2;
 }
 .web{
     background-color: white;
