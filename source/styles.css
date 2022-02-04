@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
 
 #hero-section {
     background-image: url("/source/img/bgk-header.png");
+    background-size: cover;
     height: 600px;
     margin: 0;
     color: white;
@@ -21,16 +22,18 @@ font-family: 'Roboto', sans-serif;                      (thin 100, light 300, bl
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 #head1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 800px;
 }
 #first{
     display: flex;
     justify-content: center;
 }    
-#hero-section h3{
+h3{
     margin-top:10px;
     margin-left: 10px;
     font-size: 30px;
@@ -79,6 +82,7 @@ li a:hover{
 hr{
     
     background-color: #00e0d0;
+    width: 100px;
 }
 #hero-section h2{
     margin-top: 100px;
@@ -92,25 +96,12 @@ hr{
     text-align: center;    
 }
 
-#button12{  /* had to add the #hero-section so it wouldn't interfere with the story button */
-    background-color: transparent;
-    border:1px solid #00e0d0;
-    margin-left: 45%;
-    margin-right: 45%;
-    font-size: 16px;
-    color: #00e0d0;
-    font-weight: 400;
-    font-family: "Hammersmith One";
-    text-align: center;
-    padding: 5px;
- 
-    margin-bottom: 200px;
-}
+
 
 
 #hero-section p{
     height: 79px;
-    padding: 0px 170px;
+    width: 40%;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 24px;
@@ -154,7 +145,7 @@ hr{
     font-family: "Playfair Display";
 }
 
-.story_text button {    /* We should make the buttons the same; the % Values of width didn't do it for me*/
+button {    /* We should make the buttons the same; the % Values of width didn't do it for me*/
 
     font-size: 1rem;
     color: #00e0d0;
@@ -167,7 +158,7 @@ hr{
     
     
 }
-.story_text button:hover {
+button:hover {
     background-color: #00e0d0;
     color: white;
 }
@@ -319,11 +310,13 @@ margin: 0 1px;
     width: 100%;
     height: 600px;
     background-image:url('img/bgk-header.png');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     color: white;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 #ts-rows{
     display: flex;
@@ -332,8 +325,8 @@ margin: 0 1px;
     width:100%;
 }
 #ts-row1{
-    border: 2px solid grey;
-    width:150px;
+    border: 1px solid grey;
+    width:180px;
     height:250px;
     margin: 20px;
     text-align: center;
@@ -470,16 +463,17 @@ margin: 0 1px;
 
 #footer {
     background-image: url("img/bgk-footer.png");
+    background-size: cover;
     display: flex;
     height: 400px;
-    padding: 0px 200px;
+    align-items: center;
     flex-direction: column;
     justify-content: space-around;
 }
 
 #top{
     display: flex;   
-    width: 100%;
+    width: 50%;
     height: 80%;
     justify-content: space-between;
 }
@@ -520,11 +514,9 @@ margin: 0 1px;
     background-color: transparent;
 }
 
-
-
 #foot-bottom{
     display:flex;
-    width: 100%;
+    width: 50%;
     justify-content: space-between;
     align-items: center;
     flex: auto;
